@@ -45,6 +45,9 @@ export class TransistorSoftMap extends HTMLElement {
       zoom: 8,
     });
 
+    const transitLayer = new google.maps.TransitLayer();
+    transitLayer.setMap(this.gmap);
+
     this.onMapLoaded();
 
   }
