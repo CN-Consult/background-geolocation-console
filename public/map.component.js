@@ -41,8 +41,8 @@ export class TransistorSoftMap extends HTMLElement {
       `;
 
     this.gmap = new google.maps.Map(shadowRoot.querySelector('div'), {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 8,
+      center: { lat: 51.165691, lng: 10.451526 },
+      zoom: 6,
     });
 
     const transitLayer = new google.maps.TransitLayer();
