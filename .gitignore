@@ -7,3 +7,4 @@ build/
 changes.diff
 backup.backup
 src/server/firebase/serviceAccount.json
+.idea
